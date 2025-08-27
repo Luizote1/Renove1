@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (emailInput.value === "renove@gmail.com" && senhaInput.value === "renove") {
                 alert("Login bem-sucedido! Redirecionando...");
                 localStorage.setItem('usuarioLogado', 'true');
-                window.location.href = "/index.html";
+                window.location.href = "../index.html";
             } else {
                 alert("E-mail ou senha incorretos. Tente novamente.");
             }
